@@ -45,7 +45,7 @@ In report view, in the New Measures table, Revenue was calculated, `Revenue = SU
 4. Quarterly, Monthly, and Daily Sales
 
 Used a line chart to visualize quarterly, monthly, and daily sales by total order and revenue. Total Order as Y-axis, and Revenue as Secondary Y-axis. 
-The Day Name tile (a single visual is referred to as a tile) was showing as number of day "1,2,3..." instead of day of week "mon, tues, wed,..." on the X-axis. so I went to power query, Orders table -->Date column -->Add Column tab -->Date, day, name of day. Voila! Close and Apply. 
+The Day of Week tile (a single visual is referred to as a tile) was showing as number of day "1,2,3..." instead of day of week "mon, tues, wed,..." on the X-axis. So I went to power query, Orders table -->Date column -->Add Column tab -->Date, day, name of day. Voila! Close and Apply. 
 To sort the day of week chronologically, I went to power query again and created a conditional column called Day Sort. The column had Sunday as 1, Monday as 2, etc. Close and apply. On PBI desktop, I clicked on the Day Name column (day of week) -->Column Tools tab --> Sort by column, sort by Day Sort. In the tile, Sort axis -->Day Name. 
 That's how to arrange an axis the way you want.
 
@@ -61,13 +61,13 @@ In power query, I removed "the" and "pizza" from the pizza name column.
 These pizzas were represented by Revenue and by No of Orders using a bar chart. For best I filtered by Top 5, then Bottom 5 for last.
 
 
-After getting all the visuals, I googled pizza colour palette because I wanted my report to look real. We do excellence over here 😌
+After getting all the visuals, I googled pizza colour palette because I wanted my report to look real. We strive for excellence over here 😌
 
 Then I went ahead to type my insights and recommendations and arrange the report beautifully.
 
 ## Report
-This is my best creation yet.
-![](Pizza_Sales_Report.jpg)
+This is my best work yet.
+![](PizzaReport_page-0001.jpg)
 
 I had a lot of help from YouTube so I'm going to take a moment to thank God for YouTube, and also thank Idris Alugo for his [videos](https://www.youtube.com/watch?v=ItkDG5zboi8). He may never know but I am eternally grateful.
 
